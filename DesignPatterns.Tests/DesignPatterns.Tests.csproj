@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{95218CB8-5BDD-4EE6-95F0-7858519DE3E0}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DesignPatterns.Tests</RootNamespace>
+    <AssemblyName>DesignPatterns.Tests</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="nunit.framework, Version=2.6.3.13283, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77, processorArchitecture=MSIL">
+      <HintPath>..\packages\NUnit.2.6.3\lib\nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AdapterGreenEngineTest.cs" />
+    <Compile Include="BridgePatternTests.cs" />
+    <Compile Include="BuilderPatternTest.cs" />
+    <Compile Include="ChainOfResponsibilityTest.cs" />
+    <Compile Include="CommandTest.cs" />
+    <Compile Include="CompositeTest.cs" />
+    <Compile Include="DecoratorTest.cs" />
+    <Compile Include="FactoryMethodTests.cs" />
+    <Compile Include="FlyWeightTest.cs" />
+    <Compile Include="InterpreterTest.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PrototypeTest.cs" />
+    <Compile Include="SingletonTest.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DesignPatterns.Adopter\DesignPatterns.Adapter.csproj">
+      <Project>{6b8a3193-8c4b-4252-9eca-bf3473ea3706}</Project>
+      <Name>DesignPatterns.Adapter</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DesignPatterns.Bridge\DesignPatterns.Bridge.csproj">
+      <Project>{8ed31524-2431-444c-833b-53ebd3f63d33}</Project>
+      <Name>DesignPatterns.Bridge</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DesignPatterns.Builder\DesignPatterns.Builder.csproj">
+      <Project>{cbb3cb59-2542-4718-ba7a-cf064223f57a}</Project>
+      <Name>DesignPatterns.Builder</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DesignPatterns.Business.Entities\DesignPatterns.Business.Entities.csproj">
+      <Project>{3e08f842-7099-4ff6-bda1-946709bfbcec}</Project>
+      <Name>DesignPatterns.Business.Entities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DesignPatterns.ChainOfResponsiblity\DesignPatterns.ChainOfResponsiblity.csproj">
+      <Project>{edac1580-b76c-4dc4-b1ff-8dcdbaa77368}</Project>
+      <Name>DesignPatterns.ChainOfResponsiblity</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DesignPatterns.Command\DesignPatterns.Command.csproj">
+      <Project>{cb882e1b-a93f-4cad-876b-f7681b9bf2e4}</Project>
+      <Name>DesignPatterns.Command</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DesignPatterns.Composite\DesignPatterns.Composite.csproj">
+      <Project>{3c83bf1e-f65b-48e6-9da5-5e96a7d60523}</Project>
+      <Name>DesignPatterns.Composite</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DesignPatterns.Decorator\DesignPatterns.Decorator.csproj">
+      <Project>{a7b1f156-b3c6-42a8-9718-d0ae94f8e268}</Project>
+      <Name>DesignPatterns.Decorator</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DesignPatterns.FactoryMethod\DesignPatterns.FactoryMethod.csproj">
+      <Project>{aac08705-fe4b-4434-9c8f-43889cb91055}</Project>
+      <Name>DesignPatterns.FactoryMethod</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DesignPatterns.FlyWeight\DesignPatterns.FlyWeight.csproj">
+      <Project>{7a9f535c-62ff-4624-9808-524576963086}</Project>
+      <Name>DesignPatterns.FlyWeight</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DesignPatterns.Interpreter\DesignPatterns.Interpreter.csproj">
+      <Project>{13b12d2e-80e8-4e5d-aba2-0fc202377ecf}</Project>
+      <Name>DesignPatterns.Interpreter</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DesignPatterns.Prototype\DesignPatterns.Prototype.csproj">
+      <Project>{dd65dd9d-ae09-43c0-a465-d356ad4469d2}</Project>
+      <Name>DesignPatterns.Prototype</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DesignPatterns.Singleton\DesignPatterns.Singleton.csproj">
+      <Project>{9876b084-f7c6-46a6-8c5c-418834186920}</Project>
+      <Name>DesignPatterns.Singleton</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
