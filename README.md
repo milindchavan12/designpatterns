@@ -23,12 +23,17 @@ Prototype is a creational design pattern that lets you copy existing objects wit
 
 ![alt text](https://refactoring.guru/images/patterns/diagrams/prototype/structure.png)
 
+### 5. Singleton
+Singleton is a creational design pattern that lets you ensure that a class has only one instance, while providing a global access point to this instance.
 
+![alt text](https://refactoring.guru/images/patterns/diagrams/singleton/structure.png)
 
-### 1. Adaptor Pattern
-Adapter pattern works as a bridge between two incompatible interfaces. This type of design pattern comes under structural pattern as this pattern combines the capability of two independent interfaces.
+## Structural Design Patterns
 
-![alt text](http://i.imgur.com/ldPLwmp.png)
+### 6. Adaptor Pattern
+Adapter pattern works as a bridge between two incompatible interfaces. 
+
+![alt text](https://refactoring.guru/images/patterns/diagrams/adapter/structure-object-adapter.png)
 
 ### 2. Bridge Patterns
 Decouple an abstraction from its implementation so that the two can vary independently. A Standard car and Sports car acceleration example.
