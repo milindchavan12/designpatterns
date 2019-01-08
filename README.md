@@ -6,7 +6,7 @@ Adapter pattern works as a bridge between two incompatible interfaces. This type
 ![alt text](http://i.imgur.com/ldPLwmp.png)
 
 ### 2. Bridge Patterns
-Decouple an abstraction from its implementation so that the two can vary independently.
+Decouple an abstraction from its implementation so that the two can vary independently. A Standard car and Sports car acceleration example.
 
 ![alt text](https://spzone-simpleprogrammer.netdna-ssl.com/wp-content/uploads/2015/06/diagram6.png)
 
