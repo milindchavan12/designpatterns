@@ -43,7 +43,7 @@ Decouple an abstraction from its implementation so that the two can vary indepen
 ### 8. Composite
 Composite is a structural design pattern that lets you compose objects into tree structures and then work with these structures as if they were individual objects.
 
-![alt text](https://refactoring.guru/images/patterns/diagrams/bridge/structure-en.png)
+![alt text](https://refactoring.guru/images/patterns/diagrams/composite/structure.png)
 
 ### 4. Chain of Responsibility
 Chain of Responsibility is a behavioral design pattern that lets you pass requests along a chain of handlers. Upon receiving a request, each handler decides either to process the request or to pass it to the next handler in the chain.
