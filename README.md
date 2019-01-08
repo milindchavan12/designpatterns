@@ -35,12 +35,15 @@ Adapter pattern works as a bridge between two incompatible interfaces.
 
 ![alt text](https://refactoring.guru/images/patterns/diagrams/adapter/structure-object-adapter.png)
 
-### 2. Bridge Patterns
+### 7. Bridge Patterns
 Decouple an abstraction from its implementation so that the two can vary independently. A Standard car and Sports car acceleration example.
 
-![alt text](https://spzone-simpleprogrammer.netdna-ssl.com/wp-content/uploads/2015/06/diagram6.png)
+![alt text](https://refactoring.guru/images/patterns/diagrams/bridge/structure-en.png)
 
+### 8. Composite
+Composite is a structural design pattern that lets you compose objects into tree structures and then work with these structures as if they were individual objects.
 
+![alt text](https://refactoring.guru/images/patterns/diagrams/bridge/structure-en.png)
 
 ### 4. Chain of Responsibility
 Chain of Responsibility is a behavioral design pattern that lets you pass requests along a chain of handlers. Upon receiving a request, each handler decides either to process the request or to pass it to the next handler in the chain.
