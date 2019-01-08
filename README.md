@@ -1,5 +1,20 @@
 # Design Patterns
 
+## Creational Patterns
+Creational design patterns provide various object creation mechanisms, which increase flexibility and reuse of existing code.
+
+### 1. Factory Method
+Factory Method is a creational design pattern that provides an interface for creating objects in a superclass, but allows subclasses to alter the type of objects that will be created.
+
+![alt text](https://refactoring.guru/images/patterns/diagrams/factory-method/structure.png)
+
+
+
+
+
+
+
+
 ### 1. Adaptor Pattern
 Adapter pattern works as a bridge between two incompatible interfaces. This type of design pattern comes under structural pattern as this pattern combines the capability of two independent interfaces.
 
