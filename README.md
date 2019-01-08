@@ -13,9 +13,15 @@ Abstract Factory is a creational design pattern that lets you produce families o
 
 ![alt text](https://refactoring.guru/images/patterns/diagrams/abstract-factory/structure.png)
 
+### 3. Builder Pattern
+Separate the construction of a complex object from its representation so that the same construction process can create different representations.
 
+![alt text](https://refactoring.guru/images/patterns/diagrams/builder/structure.png)
 
+### 4. Prototype
+Prototype is a creational design pattern that lets you copy existing objects without making your code dependent on their classes.
 
+![alt text](https://refactoring.guru/images/patterns/diagrams/prototype/structure.png)
 
 
 
@@ -29,10 +35,7 @@ Decouple an abstraction from its implementation so that the two can vary indepen
 
 ![alt text](https://spzone-simpleprogrammer.netdna-ssl.com/wp-content/uploads/2015/06/diagram6.png)
 
-### 3. Builder Pattern
-Separate the construction of a complex object from its representation so that the same construction process can create different representations.
 
-![alt text](https://refactoring.guru/images/patterns/diagrams/builder/structure.png)
 
 ### 4. Chain of Responsibility
 Chain of Responsibility is a behavioral design pattern that lets you pass requests along a chain of handlers. Upon receiving a request, each handler decides either to process the request or to pass it to the next handler in the chain.
