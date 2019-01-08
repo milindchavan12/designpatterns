@@ -12,4 +12,5 @@ Decouple an abstraction from its implementation so that the two can vary indepen
 
 ### 3. Builder Pattern
 Separate the construction of a complex object from its representation so that the same construction process can create different representations.
+
 ![alt text](https://www.dofactory.com/images/diagrams/net/builder.gif)
