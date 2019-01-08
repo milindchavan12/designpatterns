@@ -14,3 +14,8 @@ Decouple an abstraction from its implementation so that the two can vary indepen
 Separate the construction of a complex object from its representation so that the same construction process can create different representations.
 
 ![alt text](https://refactoring.guru/images/patterns/diagrams/builder/structure.png)
+
+### 4. Chain of Responsibility
+Chain of Responsibility is a behavioral design pattern that lets you pass requests along a chain of handlers. Upon receiving a request, each handler decides either to process the request or to pass it to the next handler in the chain.
+
+![alt text](https://refactoring.guru/images/patterns/diagrams/chain-of-responsibility/structure.png)
